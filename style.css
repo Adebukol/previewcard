@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 164px 407px 164px 407px;
+    font-family: 'Montesserat', sans-serif;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.8em;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 30px;
+    height: 452px;
+    width: 600px;
+}
+.product-image{
+    border-top-left-radius:0.8em ;
+    border-bottom-left-radius: 0.8em;
+}
+
+article{
+    padding: 1.5rem;
+    width: 50%;
+}
+h1{
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    color: hsl(228, 12%, 48%);
+}
+h2{
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+.product-description p{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.product-price h2{
+    color: hsl(158, 36%, 37%);
+}
+sup{
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    gap: 0.4rem ;
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(158, 36%, 37%);
+}
+button:hover{
+    background-color: hsl(212, 21%, 14%) ;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
