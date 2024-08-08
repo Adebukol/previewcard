@@ -2,6 +2,7 @@ body{
     background-color: hsl(30, 38%, 92%);
     margin: 164px 407px 164px 407px;
     font-family: 'Montesserat', sans-serif;
+    min-width: 50%;
     max-width: 1440px;
 }
 main{
